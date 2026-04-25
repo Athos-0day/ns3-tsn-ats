@@ -19,14 +19,14 @@ This topology is modeled after aerospace onboard Ethernet communications require
 
 ```mermaid
 graph TD
-    subgraph "Système de Vol Redondant (Basé sur Zhao et al.)"
-        S1[Capteur Vitesse] --- SW1((Switch TSN A))
-        S1 --- SW2((Switch TSN B))
+    subgraph "Redundant Flight System (Based on Zhao et al.)"
+        S1[Airspeed Sensor] --- SW1((TSN Switch A))
+        S1 --- SW2((TSN Switch B))
         
-        S2[Capteur Altitude] --- SW1
+        S2[Altitude Sensor] --- SW1
         S2 --- SW2
         
-        SW1 === FCC[Calculateur de Vol FCC]
+        SW1 === FCC[Flight Control Computer - FCC]
         SW2 === FCC
     end
 
