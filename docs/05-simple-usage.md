@@ -19,7 +19,6 @@ flowchart TD
     subgraph "3. Simulation Engine (C++ / ns-3)"
         NS3{{"ns-3 Binary<br>(aerospace-redundant)"}}
         PY_RUN -- "Executes ns-3 with parameters" --> NS3
-        NS3 -- "Simulates" --> NS3
     end
 
     subgraph "4. Outputs (Raw Data)"

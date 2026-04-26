@@ -19,7 +19,7 @@
 //             |         \   /         |
 //      _______v_______   \ /   _______v_______
 //     |     n2          |   X |      n3       |
-//     |  TSN SWITCH A |  / \  |  TSN SWITCH B |
+//     |  ETH SWITCH A |  / \  |  ETH SWITCH B |
 //     |_______________| /   \ |_______________|
 //             |         \   /         |
 //             |          \ /          |
@@ -41,6 +41,7 @@
 #include "ns3/ethernet-channel.h"
 #include "ns3/ethernet-generator.h"
 #include "ns3/ethernet-net-device.h"
+#include "ns3/network-config-structures.h"
 #include "ns3/switch-net-device.h"
 
 using namespace ns3;
