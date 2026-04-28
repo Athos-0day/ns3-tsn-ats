@@ -35,10 +35,6 @@ graph TD
     style FCC fill:#69f,stroke:#333,stroke-width:4px
 ```
 
-Voici une deuxième topologie basée directement sur la **Figure 2** de l'article scientifique que vous avez fourni. 
-
-Cette topologie est particulièrement intéressante pour l'évaluation car elle introduit des scénarios de **multi-sauts (multi-hop)** et de **confluence de flux**, ce qui permet de tester l'accumulation de la gigue et le calcul des pires délais (Worst-Case Latency).
-
 ---
 
 ## Topology 2: Multi-Hop Mixed-Traffic Network
