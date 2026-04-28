@@ -85,4 +85,3 @@ graph TD
 1.  **Topologie 1 (Aérospatiale) :** Teste la robustesse via la **redondance** (plusieurs chemins physiques).
 2.  **Topologie 2 (Zhao et al.) :** Teste la performance temporelle via le **multi-sauts** (un seul chemin critique partagé par plusieurs flux).
 
-L'utilisation de cette source (Zhao et al., 2018) est très solide car elle provient d'une étude publiée dans **IEEE Access** qui fait référence pour l'analyse des délais par le calcul réseau (Network Calculus).
